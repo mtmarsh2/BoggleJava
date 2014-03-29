@@ -14,7 +14,7 @@ public class imp
 	private String solved[]=new String[2000];
 	private boolean c[]=new boolean[2000];
 	private int score=0,pos=50;
-	public void eval(String x)//Checks to see if you word is valid.
+	private void eval(String x)//Checks to see if you word is valid.
 	{
 		for(int i=0;i<solved.length;i++)
 		{
@@ -29,7 +29,7 @@ public class imp
 			}
 		}
 	}
-	public int getScore()
+	private int getScore()
 	{
 		return score;
 	}
@@ -123,7 +123,7 @@ public class imp
 		solve(x-1,y-1,4,4,c,n-1);
 		blocked[x][y]=false;
 	}
-	public void check(String s, int lo, int hi) //Binary Search
+	private void check(String s, int lo, int hi) //Binary Search
 	{
 		if(lo>hi)
 			return;

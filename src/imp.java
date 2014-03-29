@@ -1,6 +1,6 @@
 //@author nahata2
 //@review jliu67
-package game;
+//package game;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -8,13 +8,13 @@ public class imp
 {
 	private char ar[][]=new char[5][5];
 	private boolean blocked[][]=new boolean[5][5];
-	private File f=new File("game/Dictionary.txt");
+	private File f=new File("Dictionary.txt");
 	private String word[];
 	private int counter=0;
 	private String solved[]=new String[2000];
 	private boolean c[]=new boolean[2000];
 	private int score=0,pos=50;
-	private void eval(String x)//Checks to see if you word is valid.
+	public void eval(String x)//Checks to see if you word is valid.
 	{
 		for(int i=0;i<solved.length;i++)
 		{
@@ -29,7 +29,7 @@ public class imp
 			}
 		}
 	}
-	private int getScore()
+	public int getScore()
 	{
 		return score;
 	}

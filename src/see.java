@@ -1,6 +1,6 @@
 //@author nahata2
 //@review jliu67
-package game;
+//package game;
 import java.util.Scanner;
 public class see 
 {

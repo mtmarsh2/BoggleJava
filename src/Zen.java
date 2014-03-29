@@ -1,6 +1,4 @@
-package game;
-//UIUC CS125 FALL 2012 MP. File: Zen.java, CS125 Project: CS125-MidSemesterChallenge, Version: 2012-10-29T13:46:12-0500.462285000
-
+//package game;
 import java.awt.Color;
 import java.awt.Container;
 import java.awt.Cursor;
